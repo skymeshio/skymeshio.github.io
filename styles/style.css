@@ -81,8 +81,8 @@ article a:hover::after {
 
 .opl {
     position: fixed;
-    top: 5%;
-    left: 2.5%;
+    top: 4%;
+    left: 2%;
     z-index: 400;
     width: 310px;
     height: 85px;
@@ -92,6 +92,7 @@ article a:hover::after {
     background-size: cover;
     background-color: rgba(102,68,92,.7);
     border-radius: 15px;
+    border: 2px solid #6eb2bc;
 }
 
 #nav-menu {

@@ -11,6 +11,8 @@ $(function () {
     var skymesh = 'skymesh'.split('');
 
     var loader = $('#brand');
+    var skymesh_logo = $('.opl');
+    skymesh_logo.hide();
 
     var randomTimeout;
     var loaderText = '';
@@ -43,6 +45,7 @@ $(function () {
     function afterGenerated() {
         console.log('generated');
         loader.addClass('shrink');
+        skymesh_logo.show();
 
         setTimeout(afterBrand, 750);
     }
