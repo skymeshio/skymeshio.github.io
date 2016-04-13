@@ -79,20 +79,19 @@ article a:hover::after {
     width: 0;
 }
 
-.opl {
+.logo {
     position: fixed;
     top: 4%;
-    left: 2%;
+    left: 4%;
+    padding-bottom: 100px;
     z-index: 400;
     width: 310px;
     height: 85px;
     text-indent: -999em;
     display: block;
-    background: url('../assets/skymesh_logo.png') no-repeat;
+    background: url('../assets/skymesh_logo.png') no-repeat, radial-gradient(#FFFFFF, transparent);
     background-size: cover;
-    background-color: rgba(102,68,92,.7);
-    border-radius: 15px;
-    border: 2px solid #6eb2bc;
+    border-radius: 35px;
 }
 
 #nav-menu {
