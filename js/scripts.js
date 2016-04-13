@@ -83,7 +83,7 @@ $(function () {
         navMenuLinks.click(togglerFunction);
 
         $('#fullpage').fullpage({
-            anchors: ['welcome', 'construction'],
+            anchors: ['welcome', 'consumer', 'enterprise'],
             menu: '#nav-menu',
             sectionSelector: '.page',
             scrollOverflow: true,
