@@ -84,7 +84,7 @@ $(function () {
         
         // Set contact form dimentions
         $('#contact-form').css('height', $(window).height() * 0.7 | 500);
-        $('#contact-form').css('width', $(window).width() * 0.6 | 760);
+        $('#contact-form').css('width', $(window).width() * 0.5 | 760);
 
         $('#fullpage').fullpage({
             anchors: ['welcome', 'consumer', 'enterprise', 'contact'],
