@@ -87,7 +87,7 @@ $(function () {
         $('#contact-form').css('width', $(window).width() * 0.5 | 760);
 
         $('#fullpage').fullpage({
-            anchors: ['welcome', 'consumer', 'enterprise', 'contact'],
+            anchors: ['welcome', 'consumer', 'enterprise', 'demo', 'contact'],
             menu: '#nav-menu',
             sectionSelector: '.page',
             scrollOverflow: true,
