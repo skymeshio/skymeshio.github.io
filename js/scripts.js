@@ -149,6 +149,6 @@ $(function () {
             addParticle();
         }
 
-        particlesJS.load('particles', 'http://skymesh.io/assets/particles.json', afterParticlesLoaded);
+        particlesJS.load('particles', 'assets/particles.json', afterParticlesLoaded);
     }
 });
