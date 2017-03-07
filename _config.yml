@@ -2,3 +2,20 @@ gems:
     - jekyll-seo-tag
     
 title: Skymesh, Inc.
+description: Delivering a robust and decentralized network of moving vehicles (Mimica), Available on demand at your fingertips
+url: http://skymesh.io
+image: images/logoPreview.png
+
+twitter:
+    username: skymeshio
+logo: images/logoPreview.png
+social:
+    name: Skymesh, Inc.
+    links:
+        - https://twitter.com/skymeshio
+        - https://www.facebook.com/skymeshio
+        - https://www.linkedin.com/company/skymesh
+        
+twitterURL: https://twitter.com/skymeshio
+facebookURL: https://www.facebook.com/skymeshio
+linkedinURL: https://www.linkedin.com/company/skymesh
