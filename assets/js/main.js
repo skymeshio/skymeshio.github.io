@@ -407,3 +407,17 @@
 	});
 
 })(jQuery);
+
+// Particles JS
+particlesJS.load('particles-js', 'assets/js/particles-config.json', function() {
+    // Particles loaded
+    console.log('Particles JS Loaded');
+    // Load CSS properties
+    var elementId = '#particles-js';
+    $(elementId).css('position', 'fixed');
+    $(elementId).css('width', '100%');
+    $(elementId).css('height', '100%');
+    $(elementId).css('left', '0');
+    $(elementId).css('top', '0');
+    $(elementId).css('z-index', '2');
+});
