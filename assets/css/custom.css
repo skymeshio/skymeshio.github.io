@@ -1,10 +1,11 @@
 /* Custom CSS for Skymesh */
 
 li.team-image {
-    width:50%;
+    width:49%;
 }
 li.team-image img {
     width:100%;
+    height:auto;
     border-radius: 100%;
     border-color: white;
     border-width: 2px;
@@ -12,6 +13,7 @@ li.team-image img {
 }
 
 li.team-desc {
+    width:49%;
     vertical-align: top !important;
 }
 li.team-desc ul li {
@@ -22,4 +24,5 @@ li.team-desc ul li {
 
 ul.team-social {
     text-align: center;
+    margin-top: -10px;
 }
