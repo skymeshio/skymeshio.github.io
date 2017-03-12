@@ -1,0 +1,25 @@
+/* Custom CSS for Skymesh */
+
+li.team-image {
+    width:50%;
+}
+li.team-image img {
+    width:100%;
+    border-radius: 100%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+li.team-desc {
+    vertical-align: top !important;
+}
+li.team-desc ul li {
+    display: list-item;
+    text-align: left;
+    padding-top: 0;
+}
+
+ul.team-social {
+    text-align: center;
+}
